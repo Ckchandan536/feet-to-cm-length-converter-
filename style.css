@@ -1,0 +1,66 @@
+form {
+  margin: 50px auto;
+  width: 45vw;
+
+  height: 95vh;
+  background-color: black;
+}
+
+label {
+  width: 160px;
+  color: white;
+  margin: 25px 50px 25px 0px;
+  font-size: 1.4em;
+}
+
+input#ft {
+  height: 40px;
+  width: 200px;
+  padding-left: 25px;
+  margin-left: 20px;
+  font-size: 1.3em;
+}
+
+div#results {
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  font-size: 2.5em;
+  border: 3px solid rgb(238, 227, 5);
+  
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  padding-top: 40px;
+}
+
+.rect {
+  width: 400px;
+  text-align: left;
+  margin: 25px auto;
+}
+
+#button {
+  background-color: rgb(49, 54, 70);
+  border: none;
+  color: rgb(255, 255, 255);
+  width: 175px;
+  padding: 5px 15px;
+  line-height: 1em;
+  font-size: 1.2em;
+  text-align: center;
+  margin: 50px 120px;
+  cursor: pointer;
+}
+
+#results {
+  color: yellow;
+  margin: 0;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
